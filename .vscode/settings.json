@@ -1,0 +1,9 @@
+{
+    "go.alternateTools": {
+        "go": "/home/caio/.local/share/mise/shims/go",
+        "gopls": "/home/caio/.local/share/mise/shims/gopls"
+    },
+    "debug.javascript.defaultRuntimeExecutable": {
+        "pwa-node": "/home/caio/.local/share/mise/shims/node"
+    }
+}
