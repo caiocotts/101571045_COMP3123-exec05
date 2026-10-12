@@ -75,7 +75,7 @@ app.use((err,req,res,next) => {
 
 **Answer:**
 
-In this project `express.Router()` creates a mini express applicaqtion in
+In this project `express.Router()` creates a mini express application in
 `routes/users.js`. Allowing for me to implement something almost like a nested
 API, which gets added to the top level API later. This makes it easy to split
 the implementation of different parts of the API, separating concerns
@@ -90,8 +90,8 @@ the implementation of different parts of the API, separating concerns
 
 I would use a similar method as specified in this lab, to assert which type of
 error was raised. Then construct an appropriate response to the API client with
-something like a request ID and a simple exmplanation of what has occured. Then
-i would log the more technical error message on the backend using the same
+something like a request ID and a simple explanation of what has occurred. Then
+I would log the more technical error message on the backend using the same
 request ID, such that a developer could cross reference with the API user and
 check what the issue was.
 
